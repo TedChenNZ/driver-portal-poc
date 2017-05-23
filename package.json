@@ -11,7 +11,9 @@
     "eslint-config-airbnb": "^15.0.1",
     "husky": "^0.13.3",
     "lint-staged": "^3.4.2",
-    "react-scripts": "1.0.5"
+    "react-scripts": "1.0.5",
+    "stylelint": "^7.10.1",
+    "stylelint-config-standard": "^16.0.0"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -21,6 +23,7 @@
     "precommit": "lint-staged"
   },
   "lint-staged": {
-    "src/**/*.{js,jsx}": "eslint"
+    "src/**/*.{js,jsx}": "eslint",
+    "src/**/*.{css,scss}": "stylelint"
   }
 }
