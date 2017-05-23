@@ -29,5 +29,15 @@
   "lint-staged": {
     "src/**/*.{js,jsx}": "eslint",
     "src/**/*.{css,scss}": "stylelint"
+  },
+  "reactToolbox": {
+    "customProperties": {
+      "color-primary": "#3498db",
+      "color-primary-dark": "#2e88c5",
+      "color-accent": "#ee3124",
+      "overlay-color": "rgba(white, .9)",
+      "overlay-opacity": 1
+    },
+    "output": "src/assets"
   }
 }
