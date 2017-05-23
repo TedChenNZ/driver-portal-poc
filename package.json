@@ -14,6 +14,7 @@
     "husky": "^0.13.3",
     "lint-staged": "^3.4.2",
     "react-scripts": "1.0.5",
+    "react-toolbox-themr": "^1.0.2",
     "stylelint": "^7.10.1",
     "stylelint-config-standard": "^16.0.0"
   },
@@ -22,7 +23,8 @@
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
-    "precommit": "lint-staged"
+    "precommit": "lint-staged",
+    "react-toolbox-style": "react-toolbox-themr"
   },
   "lint-staged": {
     "src/**/*.{js,jsx}": "eslint",
